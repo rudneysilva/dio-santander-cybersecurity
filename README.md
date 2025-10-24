@@ -1,5 +1,3 @@
-Com base nas informações coletadas sobre melhores práticas para documentação de projetos de cibersegurança e ataques de força bruta, elaborei uma sugestão completa de README para o seu projeto:
-
 ---
 
 # 🔐 Simulação de Ataques Brute Force com Medusa e Kali Linux
