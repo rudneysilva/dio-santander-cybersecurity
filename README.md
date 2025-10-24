@@ -1,12 +1,15 @@
----
+## ⚠️ Aviso Legal
+
+Este projeto foi desenvolvido **exclusivamente para fins educacionais** em ambiente controlado. A realização de testes de penetração sem autorização é **ilegal**. Sempre obtenha permissão explícita antes de testar sistemas que não sejam de sua propriedade.
+___
 
 # 🔐 Simulação de Ataques Brute Force com Medusa e Kali Linux
 
-Este projeto documenta a implementação prática de ataques de força bruta em ambientes controlados, utilizando **Kali Linux** e a ferramenta **Medusa**, com foco em identificação de vulnerabilidades e recomendações de mitigação.[1][2]
+Este projeto tem como obejtivo documentar a implementação prática de ataques de força bruta em ambientes controlados, utilizando **Kali Linux** e a ferramenta **Medusa**, com foco em identificação de vulnerabilidades e recomendações de mitigação.
 
 ## 🎯 Objetivo
 
-Demonstrar técnicas de auditoria de segurança através de simulações de ataques brute force em diferentes serviços (FTP, Web Forms e SMB), utilizando ambientes vulneráveis para fins educacionais e aprendizado prático de medidas defensivas.[3][4]
+Demonstrar técnicas de auditoria de segurança através de simulações de ataques brute force em diferentes serviços (FTP, Web Forms e SMB), utilizando ambientes vulneráveis para fins educacionais e aprendizado prático de medidas defensivas.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -132,4 +135,4 @@ Durante este projeto, foram explorados conceitos fundamentais de:
 
 ## ⚠️ Aviso Legal
 
-Este projeto foi desenvolvido **exclusivamente para fins educacionais** em ambiente controlado. A realização de testes de penetração sem autorização é **ilegal**. Sempre obtenha permissão explícita antes de testar sistemas que não sejam de sua propriedade.[1][5]
+Este projeto foi desenvolvido **exclusivamente para fins educacionais** em ambiente controlado. A realização de testes de penetração sem autorização é **ilegal**. Sempre obtenha permissão explícita antes de testar sistemas que não sejam de sua propriedade.
