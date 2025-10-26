@@ -15,13 +15,13 @@ Demonstrar técnicas de auditoria de segurança através de simulações de ataq
 
 - **Kali Linux** - Distribuição focada em testes de segurança
 - **Medusa** - Ferramenta de brute force multi-protocolo
-- **VirtualBox** - Virtualização dos ambientes
+- **VMware** - Virtualização dos ambientes
 - **Metasploitable 2** - VM intencionalmente vulnerável
 - **DVWA (Damn Vulnerable Web Application)** - Aplicação web vulnerável para testes
 
 ## 📋 Pré-requisitos
 
-- VirtualBox instalado
+- VMware instalado
 - Conhecimento básico de Linux e redes
 - Compreensão dos aspectos éticos de testes de penetração
 
@@ -31,11 +31,11 @@ Demonstrar técnicas de auditoria de segurança através de simulações de ataq
 
 1. **Kali Linux** (Atacante)
    - Configurar adaptador de rede em modo Host-Only
-   - IP: 192.168.56.101
+   - IP: 192.168.10.16
 
 2. **Metasploitable 2** (Alvo)
    - Configurar adaptador de rede em modo Host-Only
-   - IP: 192.168.56.102
+   - IP: 192.168.10.17
 
 ### Instalação do Medusa
 ```bash
@@ -48,21 +48,32 @@ medusa -h  # Verificar instalação
 
 ### Cenário 1: Ataque Brute Force em FTP
 
-**Objetivo:** Comprometer credenciais do serviço FTP através de força bruta.[5][1]
+### Enumerando os Serviços e Portas Via NMAP:
+<img width="603" height="343" alt="image" src="https://github.com/user-attachments/assets/49d615f6-3176-4cb4-90ee-0a497394431a" />
+	-Sv: Mostra as versões dos Serviços que foram solicitados das Portas. 
+	-P: Para scanear nas seguintes portas.  
+	
+	### Validando o acesso ao serviço e testando usuário e senha padrão:
+   <img width="770" height="254" alt="image" src="https://github.com/user-attachments/assets/a4dca226-aedc-4ea2-98d2-6a29514c002d" />
+   
+	Criação de Lista de usuários e senhas: 
+   <img width="759" height="209" alt="image" src="https://github.com/user-attachments/assets/bd2f6745-7199-4ccb-8229-331094f02093" />
+	
+	Realizando o Ataque via medusa em cima do Protocolo SFTP:
+	Conta e senha encontrada. 
+   <img width="767" height="538" alt="image" src="https://github.com/user-attachments/assets/9f6b4da8-a496-4938-af2a-9f12eff44793" />
+	
+	Realizando o Teste no Servidor:
+   <img width="765" height="640" alt="image" src="https://github.com/user-attachments/assets/b0703294-ebd1-4eed-a8b8-ed9f52b6c433" />
 
-**Comando utilizado:**
-```bash
-medusa -h 192.168.56.102 -u admin -P /usr/share/wordlists/rockyou.txt -M ftp -t 4
-```
+	
+	
+	Utilização de Senhas Complexas, longas, alteração constante e bloqueio por erros .
+	Não utilizar o mesmo usuário como senha. 
+	Deixar somente os serviços necessários nos dervidores
+	Utilização de Serviços modernos como SFTP.
+Caso haja possibilidade sempre utilize MFA.<img width="586" height="2322" alt="image" src="https://github.com/user-attachments/assets/e0ef47d8-5be1-41b6-bac0-bb33963f82c7" />
 
-**Parâmetros:**
-- `-h`: IP do alvo
-- `-u`: Usuário testado
-- `-P`: Wordlist de senhas
-- `-M`: Módulo/protocolo (ftp)
-- `-t`: Número de threads
-
-**Resultado:** [Documentar se obteve sucesso e qual credencial foi descoberta]
 
 ### Cenário 2: Ataque em Formulário Web (DVWA)
 
