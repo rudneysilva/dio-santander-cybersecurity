@@ -11,9 +11,11 @@
 1. **Kali Linux** (Atacante)
    - Configurar adaptador de rede em modo Host-Only
    - IP: 192.10.16
-![alt text](image.png)
+
+<img width="767" height="384" alt="image" src="https://github.com/user-attachments/assets/1a87a36e-2979-4421-a0f4-095e1d94f86b" />
 
 2. **Metasploitable 2** (Alvo)
    - Configurar adaptador de rede em modo Host-Only
    - IP: 192.168.10.17
-   ![alt text](image-1.png)
+   
+
