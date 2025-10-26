@@ -21,7 +21,7 @@ Demonstrar técnicas de auditoria de segurança através de simulações de ataq
 
 ## 📋 Pré-requisitos
 
-- VMware instalado
+- VMware Workstation
 - Conhecimento básico de Linux e redes
 - Compreensão dos aspectos éticos de testes de penetração
 
