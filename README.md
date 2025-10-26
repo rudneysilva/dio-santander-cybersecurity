@@ -52,7 +52,7 @@ medusa -h  # Verificar instalação
 <img width="603" height="343" alt="image" src="https://github.com/user-attachments/assets/49d615f6-3176-4cb4-90ee-0a497394431a" />
 
 -Sv: Mostra as versões dos Serviços que foram solicitados das Portas. 
--P: Para scanear nas seguintes portas.  
+** -P: Para scanear nas seguintes portas.  
 	
 ### Validando o acesso ao serviço e testando usuário e senha padrão:
    <img width="770" height="254" alt="image" src="https://github.com/user-attachments/assets/a4dca226-aedc-4ea2-98d2-6a29514c002d" />
