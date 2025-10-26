@@ -17,5 +17,9 @@
 2. **Metasploitable 2** (Alvo)
    - Configurar adaptador de rede em modo Host-Only
    - IP: 192.168.10.17
+<img width="730" height="358" alt="image" src="https://github.com/user-attachments/assets/cb47389b-e70e-4e8b-beb5-b5a551e7d6ac" />
+
    
+   
+
 
