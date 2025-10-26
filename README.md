@@ -50,29 +50,27 @@ medusa -h  # Verificar instalação
 
 ### Enumerando os Serviços e Portas Via NMAP:
 <img width="603" height="343" alt="image" src="https://github.com/user-attachments/assets/49d615f6-3176-4cb4-90ee-0a497394431a" />
-	-Sv: Mostra as versões dos Serviços que foram solicitados das Portas. 
-	-P: Para scanear nas seguintes portas.  
+
+-Sv: Mostra as versões dos Serviços que foram solicitados das Portas. 
+-P: Para scanear nas seguintes portas.  
 	
-	### Validando o acesso ao serviço e testando usuário e senha padrão:
+### Validando o acesso ao serviço e testando usuário e senha padrão:
    <img width="770" height="254" alt="image" src="https://github.com/user-attachments/assets/a4dca226-aedc-4ea2-98d2-6a29514c002d" />
    
-	Criação de Lista de usuários e senhas: 
+Criação de Lista de usuários e senhas: 
    <img width="759" height="209" alt="image" src="https://github.com/user-attachments/assets/bd2f6745-7199-4ccb-8229-331094f02093" />
 	
-	Realizando o Ataque via medusa em cima do Protocolo SFTP:
-	Conta e senha encontrada. 
+Realizando o Ataque via medusa em cima do Protocolo SFTP:
+Conta e senha encontrada. 
    <img width="767" height="538" alt="image" src="https://github.com/user-attachments/assets/9f6b4da8-a496-4938-af2a-9f12eff44793" />
 	
-	Realizando o Teste no Servidor:
+Realizando o Teste no Servidor:
    <img width="765" height="640" alt="image" src="https://github.com/user-attachments/assets/b0703294-ebd1-4eed-a8b8-ed9f52b6c433" />
-
-	
-	
 	Utilização de Senhas Complexas, longas, alteração constante e bloqueio por erros .
 	Não utilizar o mesmo usuário como senha. 
 	Deixar somente os serviços necessários nos dervidores
 	Utilização de Serviços modernos como SFTP.
-Caso haja possibilidade sempre utilize MFA.<img width="586" height="2322" alt="image" src="https://github.com/user-attachments/assets/e0ef47d8-5be1-41b6-bac0-bb33963f82c7" />
+	Caso haja possibilidade sempre utilize MFA.<img width="586" height="2322" alt="image" src="https://github.com/user-attachments/assets/e0ef47d8-5be1-41b6-bac0-bb33963f82c7" />
 
 
 ### Cenário 2: Ataque em Formulário Web (DVWA)
